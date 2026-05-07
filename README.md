@@ -36,11 +36,11 @@ pip install -r requirements.txt
 Edit `.env` to match your setup:
 
 ```env
-OLLAMA_MODEL=llama3.2:1b
-EMBEDDING_MODEL=qwen3-embedding:0.6b-fp16
-QDRANT_HOST=localhost
-QDRANT_PORT=6333
+QDRANT__SERVICE__API_KEY="your_qdrant_api_key"
+QDRANT_URL="http://localhost:6333"
 QDRANT_COLLECTION_NAME=pdf_rag
+OLLAMA_MODEL="qwen2.5:7b"
+EMBEDDING_MODEL="qwen3-embedding:0.6b-fp16"
 CHUNK_SIZE=1000
 CHUNK_OVERLAP=200
 LOG_LEVEL=INFO
