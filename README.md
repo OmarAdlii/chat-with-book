@@ -74,3 +74,7 @@ chat-with-book/
 - Chat with memory (last 6 messages used as context)
 - MultiQueryRetriever for better recall
 - Qdrant as vector store
+
+---
+## 👨‍💻 Author
+Developed by **Omar Adly**  
